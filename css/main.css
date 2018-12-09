@@ -19,7 +19,7 @@ div {
 
 header {
 	background: url(../img/first.jpg) no-repeat center top / cover;
-	height: 100vh;
+	height: 810px;
 }
 
 .container {
@@ -63,7 +63,7 @@ nav {
 	color: #fff;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 415px;
+	margin-top: 235px;
 }
 
 h1 {
@@ -116,11 +116,21 @@ h1 {
 	margin-bottom: 5px;
 }
 
+
+.services__item h4 {
+	font-size: 16px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: 500;
+}
+
 .services__item p {
 	font-size: 14px;
 	color: #777777
 	line-height: 1.55em;
+	margin-top: 10px;
 }
+
 
 .services__item:last-child {
 	float: right;
@@ -128,21 +138,34 @@ h1 {
 
 
 .services__item:nth-child(2) {
-	margin-left: 68px;
+	margin-left: 71px;
 }
 
 #services {
-	padding-bottom: 120px;
+	padding-bottom: 100px;
 }
 
 #portfolio {
 	background: #f7f7f7;
-	padding-bottom: 120px;
+	padding-bottom: 80px;
 }
 
 .about{
  padding-top: 80px;
 }
+
+.tri {
+ position: relative;
+ display:block;
+ text-align: center;
+ margin: 0;
+}
+
+.triimage {
+ display: inline-block;
+ vertical-align: top;
+}
+
 
 .about-elem{
  position: relative;
@@ -183,6 +206,7 @@ h1 {
 
 .about-elem .content p{
  color: #777777;
+ font-size: 14px;
  line-height:  1.55em;
 }
 
@@ -199,17 +223,63 @@ h1 {
 .about-elem .content .titless{
  font-weight: 700;
  text-align: right;
- width: 450px;
+
 }
 
 .about-elem .content .titless-lft{
  text-align: left;
- width: 450px;
+
 }
 
-#copyright p{
- color: #777777;
- text-align: center;
- margin: 85px 0;
-}﻿
+#copyright {
 
+ color: #fff;
+ text-align: center;
+ font-weight: 400;
+ margin: 0;
+ background: url(../img/footer.jpg) no-repeat center top / cover;
+ height: 200px;
+}
+
+#copyright p {
+	 float: left;
+	 margin-top: 5px;
+	 margin-left: 160px;
+}
+
+.last {
+padding-top: 60px;
+
+}
+
+.last2 {
+padding-top: 80px;
+
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 3%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+	box-shadow: inset 0 0 0 3px #f7f7f7;
+	opacity: 0.7;
+	background: rgba(0,0,0,0);
+	color: #f7f7f7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+	box-shadow: inset 0 0 0 3px #f7f7f7;
+
+	background: rgba(0,0,0,0);
+	color: #f7f7f7;
+}
