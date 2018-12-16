@@ -111,7 +111,7 @@ p {
 }
 
 .menu__item a:hover {
-	border-bottom: 2px solid #fff;
+	border-bottom: 2px solid black;
 }
 
 .sectionj {
@@ -291,6 +291,14 @@ a.button:active { background: white; }
 	background-color: #f2f2f2;
 }
 
+.razrabotka {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 220px;
+	text-transform: uppercase;
+}
+
 
 
 
@@ -377,9 +385,6 @@ a.button:active { background: white; }
  text-align: right;
 
 }
-
-
-
 
 
 
