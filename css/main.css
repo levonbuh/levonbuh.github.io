@@ -11,8 +11,8 @@ body {
 }
 
 .header {
-	background: url(../img/first.jpg) no-repeat center top / cover;
-	height: 666px;
+	background: url(../img/first2.jpg) no-repeat center top / cover;
+	height: 660px;
 	padding: 28px 0;
 }
 
@@ -105,7 +105,7 @@ p {
 }
 
 .menu__item a {
-	color: #fff;
+	color: black;
 	font-size: 16px;
 	font-weight: 700;
 }
@@ -298,6 +298,85 @@ a.button:active { background: white; }
 
 
 
+
+
+
+
+
+
+#portfolio {
+	background: #f7f7f7;
+	padding-bottom: 80px;
+	padding-top: 80px;
+}
+
+.about{
+ padding-top: 80px;
+}
+
+.about-elem{
+ position: relative;
+ display:block;
+ text-align: center;
+ margin-bottom: 80px;
+}
+
+.about-elem .image{
+ display: inline-block;
+ overflow: hidden;
+ border-radius: 50%
+ width: 200px;
+ height: 200px;
+}
+
+.about-elem .image img{
+ display: inline-block;
+ vertical-align: top;
+}
+
+.about-elem .content{
+ position: absolute;
+ top: -15px;
+}
+
+.about-elem .text_rght{
+ text-align: right;
+}
+
+.about-elem .text_lft{
+ text-align: left;
+}
+
+.about-elem .content span{
+ text-transform: none;
+}
+
+.about-elem .content p{
+ color: #777777;
+ font-size: 14px;
+ line-height:  1.55em;
+}
+
+.about-elem:nth-child(odd) .content{
+ right: 50.5%;
+ margin-right: 130px;
+}
+
+.about-elem:nth-child(even) .content{
+ left: 50%;
+ margin-left: 130px;
+}
+
+.about-elem .content .titless{
+ font-weight: 700;
+ text-align: right;
+
+}
+
+.about-elem .content .titless-lft{
+ text-align: left;
+
+}
 
 
 
