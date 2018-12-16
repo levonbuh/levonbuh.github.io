@@ -340,11 +340,11 @@ a.button:active { background: white; }
 }
 
 .about-elem .text_rght{
- text-align: right;
+ text-align: left;
 }
 
 .about-elem .text_lft{
- text-align: left;
+ text-align: right;
 }
 
 .about-elem .content span{
@@ -369,17 +369,14 @@ a.button:active { background: white; }
 
 .about-elem .content .titless{
  font-weight: 700;
- text-align: right;
-
-}
-
-.about-elem .content .titless-lft{
  text-align: left;
 
 }
 
+.about-elem .content .titless-lft{
+ text-align: right;
 
-
+}
 
 
 
