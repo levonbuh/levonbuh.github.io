@@ -16,6 +16,11 @@ body {
 	padding: 28px 0;
 }
 
+.header_about {
+	background-color: #f2f2f2;
+	padding: 28px 0;
+}
+
 ul, li {
 	display: block;
 	padding: 0;
@@ -174,9 +179,24 @@ p {
 	display: -ms-flex;
 	display: -o-flex;
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 	margin: 60px;
+	font-size: 14px;
+}
+
+.stack4 {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+justify-content: center;
+}
+
+.stack3 p {
+	width: 230px;
+	text-align: center;
 }
 
 .wrap-block {
@@ -273,12 +293,9 @@ a.button:active { background: white; }
 
 .titlecontact {
 	width: 300px;
+	margin-right: 10px;
 }
 
-.titlecontact2 {
-	width: 300px;
-	margin-left: 150px;
-}
 
 .demo img {
   -moz-transition: all 0.1s ease-in-out;

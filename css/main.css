@@ -69,7 +69,7 @@ h1 {
 
 
 .title {
-	padding-top: 120px;
+	padding-top: 80px;
 	padding-bottom: 60px;
 }
 
@@ -96,7 +96,6 @@ h1 {
 }
 
 .services {
-	margin-top: 80px;
 	display: -webkit-flex;
 	display: -moz-flex;
 	display: -ms-flex;
@@ -458,7 +457,6 @@ h1 {
 	}
 
 		.services {
-		margin-top: 50px;
 		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;
@@ -513,7 +511,6 @@ h1 {
 	}
 
 		.services {
-		margin-top: 50px;
 		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;
@@ -596,7 +593,6 @@ h1 {
 		}
 
 		.services {
-		margin-top: 50px;
 		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;
