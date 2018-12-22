@@ -209,7 +209,9 @@ h1 {
 .block {
 	background: #f7f7f7;
 	width: 948px;
+	height: 1400px;
 	margin:  auto;
+	padding: 20px;
 
 }
 
