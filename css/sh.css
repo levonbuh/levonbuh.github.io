@@ -882,4 +882,17 @@ transform: scale(0.9, 0.9);
 	    width: 285px;
 	    margin: 35px 0 0 0;
 	}
+
+	.stack3 {
+		flex-flow: column wrap;
+	}
+	a.demo {
+    width: 270px;
+	}
+	.block__element {
+    height: 500px;
+	}
+		#portfolio {
+		padding-bottom: 820px;
+	}
 }
