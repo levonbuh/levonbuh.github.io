@@ -7,8 +7,6 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="shortcut icon" type="image/x-icon" href="http://www.southeastpsych.com/wp-content/uploads/2015/05/s-no-background.png"/>
 	<link rel="stylesheet" href="css/sh.css">
-	<link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
-	<link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
 </head>
   <style>
    @font-face {
@@ -24,34 +22,82 @@
 <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="js/jquery.vide.min.js"></script>
 
-	<header class="header_about" id="header">
+	<header class="header" id="header">
 		<div class="container">
-			<div class="nav">
+
+		<div class="test">
+			<div id="logo">
 				<a href="sneakerheal.html" class="logo">
 					<img src="img/pp.png" alt="Sneakerheal">
 				</a>
 			</div>
+			<div class="nav">
+			     <label for="toggle">&#9776</label>
+			     <input type="checkbox" id="toggle"/>
+			     <div class="menu">
+					<div class="menu__item">
+						<a href="about.html">Кастом</a>
+					</div>
+					<div class="menu__item">
+						<a href="services.html">Ремонт</a>
+					</div>
+					<div class="menu__item">
+						<a href="shop.html">Курсы</a>
+					</div>
+					<div class="menu__item">
+						<a href="events.html">Мероприятия</a>
+					</div>
+					<div class="menu__item">
+						<a href="contact.html">Контакты</a>
+					</div>
+			     </div>
+			   </div>
+		</div>
+			   
 		</div>
 	</header>
 
-<section>
-	<div class="container">
-		<div class="nav2"><h1 class="title">Магазин</h1>
+	<section class="recommend">
+		<div class="container">
+			<div class="nav2">
+				<h1 class="title">
+					Курсы
+				</h1>
+			</div>
 		</div>
-	</div>
-</section>
+	</section>
+
+		<main>
+		<div class="container">
+			<div class="pr">
+				<div class="nav4">
+					<div>
+						<img src="https://pp.userapi.com/c845221/v845221893/e6afc/_q_B5VEzlP4.jpg" class="market_album_photo_img">
+					</div>
+				<div class="titlepr">
+					<h5>Мы кастомим</h5>
+					<h1>Sneakerhealzation</h1>
+					<p>Приносите нам больше денег - это двигатель прогресса в Sneakerheal. Контакты с воркшопами по всему миру помогают нам развиваться и достигать новых высот. Мы научим тебя конструировать, создавать и восстанавливать любую пару обуви.</p>
+				</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<section class="recommend">
+		<div class="container">
+			<div class="stack3">
+				<img class="market_row_img" src="https://pp.userapi.com/c846016/v846016316/e8cf9/AofjxfY9mIU.jpg">
+				<img class="market_row_img" src="https://pp.userapi.com/c845322/v845322316/e3958/irXuLze_jN4.jpg">
+				<img class="market_row_img" src="https://pp.userapi.com/c850124/v850124893/274af/ZfyZ64XrFiA.jpg">
+				<img class="market_row_img" src="https://pp.userapi.com/c830208/v830208600/167d15/vqVquIpk4rY.jpg">
+			</div>
+		</div>
+	</section>
 
 	<section>
 
-			<div class="container">
-				<div class="razrabotka">
-					<p>Страница<br> в разработке</p>
-				</div>
-			</div>
 	</section>
-
-
-<hr>
 
 
 
@@ -70,9 +116,25 @@
 
 
 
+		<style type="text/css">
+	  .demo { 
+	    position:relative; 
+	    margin:0 auto; 
+	    height: 180px;
+	    width:360px;
+	    display: block;
+	}
 
-	<script src="owlcarousel/owl.carousel.min.js"></script>
-	<script src="script.js"></script>
+	  .demo img { 
+	    left: 0; 
+	    position:absolute; 
+	    top: 0; 
+	}
+
+	  .demo img.raz {opacity:0;filter:alpha(opacity=0);}
+	  .demo:hover img.raz {opacity:1;filter:alpha(opacity=100);}
+	  .demo:hover img.dva, .demo img.dva:hover {opacity:0;filter:alpha(opacity=0);}
+	</style>
 </body>
 </html>
 

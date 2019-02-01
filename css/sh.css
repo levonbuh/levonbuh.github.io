@@ -11,8 +11,7 @@ body {
 }
 
 .header {
-	background: url(../img/first2.jpg) no-repeat center top / cover;
-	height: 660px;
+	height: 70px;
 	padding: 28px 0;
 }
 
@@ -77,7 +76,7 @@ label {
 	display: -o-flex;
 	display: flex;
 	align-items: center;
-	margin-top: 100px;
+	margin-top: 5px;
 	margin-bottom: 50px;
 }
 
@@ -152,14 +151,21 @@ label {
 	font-size: 32px;
 	font-weight: bold;
 	text-align: left;
-	margin-right: 683px; 
+	margin-right: 920px; 
 }
 
 .titleti h1 {
 	font-size: 32px;
 	font-weight: bold;
-	text-align: left;
+	text-align: center;
 	padding: 20px 0 20px 0; 
+}
+
+.titletico h1 {
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	padding: 40px 0 40px 0; 
 }
 
 .title2 {
@@ -172,6 +178,18 @@ label {
 	font-weight: bold;
 	text-align: right;
 	margin-top: 10px;
+}
+
+.title3 {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: right;
+padding-bottom: 116px;
 }
 
 .titlepr {
@@ -544,11 +562,8 @@ a.button:active { background: white; }
 }
 
 
-@media screen and (max-width: 1400px) {
-	.nav2 {
-	margin-top: 5px;
-	}
-}
+
+
 
 
 @media screen and (max-width: 1240px) {
@@ -797,6 +812,10 @@ a.button:active { background: white; }
 		#logo {
 			width: 100px;
 		}
+		
+	.stack3 {
+	flex-flow: column wrap;
+}
 
 		.image {
 transform: scale(0.9, 0.9);
@@ -896,6 +915,6 @@ transform: scale(0.9, 0.9);
     height: 500px;
 	}
 		#portfolio {
-		padding-bottom: 830px;
+		padding-bottom: 820px;
 	}
 }

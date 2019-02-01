@@ -7,8 +7,6 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="shortcut icon" type="image/x-icon" href="http://www.southeastpsych.com/wp-content/uploads/2015/05/s-no-background.png"/>
 	<link rel="stylesheet" href="css/sh.css">
-	<link rel="stylesheet" href="owlcarousel/assets/owl.carousel.min.css">
-	<link rel="stylesheet" href="owlcarousel/assets/owl.theme.default.min.css">
 </head>
   <style>
    @font-face {
@@ -24,39 +22,84 @@
 <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="js/jquery.vide.min.js"></script>
 
-	<header class="header_about" id="header">
+	<header class="header" id="header">
 		<div class="container">
-			<div class="nav">
+
+		<div class="test">
+			<div id="logo">
 				<a href="sneakerheal.html" class="logo">
 					<img src="img/pp.png" alt="Sneakerheal">
 				</a>
 			</div>
+			<div class="nav">
+			     <label for="toggle">&#9776</label>
+			     <input type="checkbox" id="toggle"/>
+			     <div class="menu">
+					<div class="menu__item">
+						<a href="about.html">Кастом</a>
+					</div>
+					<div class="menu__item">
+						<a href="services.html">Ремонт</a>
+					</div>
+					<div class="menu__item">
+						<a href="shop.html">Курсы</a>
+					</div>
+					<div class="menu__item">
+						<a href="events.html">Мероприятия</a>
+					</div>
+					<div class="menu__item">
+						<a href="contact.html">Контакты</a>
+					</div>
+			     </div>
+			   </div>
+		</div>
+			   
 		</div>
 	</header>
 
-<section>
-	<div class="container">
-		<div class="nav2"><h1 class="title">Услуги</h1>
-		</div>
-	</div>
-</section>
-
-	<section>
-
-			<div class="container">
-				<div class="razrabotka">
-					<p>Страница<br> в разработке</p>
+	<section class="recommend">
+		<div class="container">
+			<div class="nav2">
+				<h1 class="title">
+					Ремонт
+				</h1>
+				<h2 class="title2">
+					<a href="services.html">Посмотреть все</a>
+				</h2>
+			</div>
+			<div class="stack">
+				<div class="item">
+					<a class="demo" href="services.html">
+						<img class="raz" src="img/before1.png"/>
+						<img class="dva" src="img/after1.png"/>
+						</a>
+					<p>Декоративная заплатка</p>
+				</div>
+				<div class="item">
+					<a class="demo" href="services.html">
+						<img class="raz" src="img/before2.png"/>
+						<img class="dva" src="img/after2.png"/>
+						</a>
+					<p>Ремонт баллона</p>
+				</div>
+				<div class="item">
+					<a class="demo" href="services.html">
+						<img class="raz" src="img/before3.png"/>
+						<img class="dva" src="img/after3.png"/>
+						</a>
+					<p>Усиленные задники</p>
 				</div>
 			</div>
+		</div>
 	</section>
+	<section>
 
-
-<hr>
+	</section>
 
 
 
 <footer id="foot">
-	<div class="container clearfix">
+	<div class="container">
 		<div class="stack3">
 			<p>© Copyright 2018 sneakerheal.gq</p>
 			<hr>
@@ -70,8 +113,25 @@
 
 
 
-	<script src="owlcarousel/owl.carousel.min.js"></script>
-	<script src="script.js"></script>
+		<style type="text/css">
+	  .demo { 
+	    position:relative; 
+	    margin:0 auto; 
+	    height: 180px;
+	    width:360px;
+	    display: block;
+	}
+
+	  .demo img { 
+	    left: 0; 
+	    position:absolute; 
+	    top: 0; 
+	}
+
+	  .demo img.raz {opacity:0;filter:alpha(opacity=0);}
+	  .demo:hover img.raz {opacity:1;filter:alpha(opacity=100);}
+	  .demo:hover img.dva, .demo img.dva:hover {opacity:0;filter:alpha(opacity=0);}
+	</style>
 </body>
 </html>
 
