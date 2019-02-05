@@ -27,12 +27,18 @@ a {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	margin: 0;
+	margin-bottom: 5px;
 }
 
 p {
 	margin: 0;
 	padding: 0;
+}
+
+.wrapper {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
 }
 
 .nav {
@@ -165,7 +171,7 @@ label {
 	font-size: 32px;
 	font-weight: bold;
 	text-align: center;
-	padding: 40px 0 40px 0; 
+	padding: 40px 0 20px 0; 
 }
 
 .title2 {
@@ -189,7 +195,7 @@ label {
 	font-size: 18px;
 	font-weight: bold;
 	text-align: right;
-padding-bottom: 116px;
+padding-bottom: 40px;
 }
 
 .titlepr {
@@ -561,6 +567,15 @@ a.button:active { background: white; }
 	padding-top: 500px;
 }
 
+.kakdo {
+	text-align: center;
+	margin-bottom: 20px;
+	font-size: 20px;
+}
+.kakdo p{
+	text-align: center;
+	margin-bottom: 10px;
+}
 
 
 
@@ -689,8 +704,7 @@ a.button:active { background: white; }
 	}
 
 	.header{
-		background: url(../img/first2.jpg) no-repeat center -20px / 1000px;
-		height: 400px;
+		
 	}
 
 	.item p {
@@ -798,24 +812,25 @@ a.button:active { background: white; }
 		#portfolio {
 			padding-bottom: 600px;
 		}
+		.block__element {
+    		height: 440px;
+}
 
 }
 
 @media screen and (max-width: 500px) {
-		.gloves {
-			width: 375px;
-		}
+		
 		.titlepr {
-			width: 375px;
-			margin: 50px 0 0 0;
+			width: 325px;
+			margin: 0;
 		}
 		#logo {
 			width: 100px;
 		}
 		
-	.stack3 {
-	flex-flow: column wrap;
-}
+		.stack3 {
+			flex-flow: column wrap;
+		}
 
 		.image {
 transform: scale(0.9, 0.9);
@@ -876,10 +891,6 @@ transform: scale(0.9, 0.9);
 	.gloves {
     width: 325px;
 	}
-	.titlepr {
-    width: 325px;
-    margin: 50px 0 0 0;
-	}
 
 	#portfolio {
 		padding-bottom: 1220px;
@@ -890,6 +901,11 @@ transform: scale(0.9, 0.9);
     text-align: center;
     font-size: 28px;
 	}
+	.titlepr p {
+    margin-top: 30px;
+    text-decoration: none;
+    text-align: justify;
+}
 }
 
 @media screen and (max-width: 350px) {
