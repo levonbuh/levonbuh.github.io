@@ -564,7 +564,7 @@ h1 {
 @media screen and (max-width: 435px) {
 
 		header {
-	background: url(../img/firstm.jpg);
+			background: url(../img/firstm.jpg) no-repeat center top / cover;
 		}
 
 	.container {
@@ -656,10 +656,10 @@ h1 {
     	padding-bottom: 80px;
 		}
 	}
-}
+
 @media screen and (max-width: 350px) {
 		header {
-			background: url(../img/first.jpg) no-repeat center top / cover;
+			background: url(../img/firstm.jpg) no-repeat center top / cover;
 		}
 
 
@@ -673,10 +673,11 @@ h1 {
     	padding-bottom: 40px;
 	}
 
-	.titles_first {
-		font-size: 10px;
-		padding-top: 210px;
-	}
+.titles_first {
+    font-size: 12px;
+    padding-top: 180px;
+    padding-bottom: 10px;
+}
 
 	.titles h1 {
 		font-size: 30px;
