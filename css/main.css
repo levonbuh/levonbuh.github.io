@@ -562,14 +562,20 @@ h1 {
 		}
 }
 @media screen and (max-width: 435px) {
+
+		header {
+	background: url(../img/firstm.jpg);
+		}
+
 	.container {
 		width: 85%;
 		max-width: auto;
 	}
 
 	.titles_first {
-		font-size: 14px;
-		padding-top: 340px;
+		font-size: 12px;
+		padding-top: 240px;
+		padding-bottom: 10px;
 	}
 
 	.titles h1 {
@@ -608,6 +614,29 @@ h1 {
 	 text-align: center;
 	}
 
+	.about-elem .content .titless {
+    font-weight: 700;
+    text-align: center;
+	}
+
+	.about-elem .text_rght {
+    text-align: justify;
+	}
+	.about-elem2 .content .titless-lft {
+	    text-align: center;
+	}
+
+	.about-elem2 .text_lft {
+    	text-align: justify;
+	}
+	.about-elem {
+		text-align: center;
+	}
+
+	.about-elem2 {
+		text-align: center;
+	}
+
 	.about-elem .content{
 	 position: static;
 	 text-align: center;
@@ -623,11 +652,26 @@ h1 {
 		padding-bottom: 1390px;
 		background: #f7f7f7;
 	}
+		#services {
+    	padding-bottom: 80px;
+		}
+	}
 }
 @media screen and (max-width: 350px) {
+		header {
+			background: url(../img/first.jpg) no-repeat center top / cover;
+			height: 100vh;
+		}
+
+
 	.container {
 		width: 85%;
 		max-width: auto;
+	}
+
+	.title {
+    	padding-top: 80px;
+    	padding-bottom: 40px;
 	}
 
 	.titles_first {
@@ -652,7 +696,6 @@ h1 {
 	}
 	
 		.services {
-		margin-top: 50px;
 		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;
@@ -679,6 +722,9 @@ h1 {
 		#portfolio {
 		padding-bottom: 1430px;
 		background: #f7f7f7;
+		}
+		#services {
+    	padding-bottom: 80px;
 		}
 	}
 }
