@@ -42,6 +42,22 @@ position: relative;
 z-index: 0;
 }
 
+#back {
+	background: url(../img/back.png) no-repeat center top / cover;
+	height: 150vh;
+}
+
+.about_custom {
+	text-align: center;
+
+}
+.about_custom p {
+	text-align: center;
+	margin: 7px; /* Значение отступов */
+	border: 1px solid black; /* Параметры границы */
+	padding: 10px; /* Поля вокруг текста */
+}
+
 .wrapper {
 	width: 100%;
 	height: auto;
@@ -178,7 +194,7 @@ label {
 	font-size: 32px;
 	font-weight: bold;
 	text-align: center;
-	padding: 40px 0 20px 0; 
+	padding: 20px 0 6px 0; 
 }
 
 .title2 {
@@ -594,6 +610,9 @@ a.button:active { background: white; }
 		width: 270px;
 		height: 135px;
 	}
+	.demo2 img {
+		width: 480px;
+	}
 
 	.title {
 		margin-right: 200px;
@@ -826,7 +845,15 @@ a.button:active { background: white; }
 }
 
 @media screen and (max-width: 500px) {
-		
+			h1 {
+    font-size: 1.8em;
+    margin: 0.67em 0;
+	}
+		#back {
+		background: url(../img/back.png) no-repeat center top / cover;
+		height: 270vh;
+		}
+
 		.titlepr {
 			width: 325px;
 			margin: 0;
@@ -838,7 +865,11 @@ a.button:active { background: white; }
 		.stack3 {
 			flex-flow: column wrap;
 		}
-
+		
+			.demo2 img {
+		width: 380px;
+	}
+	
 		.image {
 transform: scale(0.9, 0.9);
 -ms-transform: scale(0.9, 0.9);
@@ -925,6 +956,10 @@ transform: scale(0.9, 0.9);
 		width: 270px;
 		height: 135px;
 	}
+
+			.demo2 img {
+		width: 320px;
+	}
 			.gloves {
     width: 320px;
 	}
@@ -948,6 +983,14 @@ transform: scale(0.9, 0.9);
 	.titlepr {
     width: 285px;
     margin: 0;
-}
+	}
+	h1 {
+    font-size: 1.6em;
+    margin: 0.67em 0;
+	}
+	#back {
+	background: url(../img/back.png) no-repeat center top / cover;
+	height: 415vh;
+	}
 }
 
