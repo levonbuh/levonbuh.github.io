@@ -851,7 +851,7 @@ a.button:active { background: white; }
 	}
 		#back {
 		background: url(../img/back.png) no-repeat center top / cover;
-		height: 270vh;
+		height: 320vh;
 		}
 
 		.titlepr {
@@ -990,7 +990,7 @@ transform: scale(0.9, 0.9);
 	}
 	#back {
 	background: url(../img/back.png) no-repeat center top / cover;
-	height: 415vh;
+	height: 465vh;
 	}
 }
 
