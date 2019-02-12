@@ -728,4 +728,20 @@ h1 {
     	padding-bottom: 80px;
 		}
 	}
+
+
+@media screen and (max-height: 900px) {
+	.titles_first {
+    padding-top: 280px;
+	}
+}
+@media screen and (max-height: 800px) {
+	.titles_first {
+    padding-top: 240px;
+	}
+}
+@media screen and (max-height: 600px) {
+	.titles_first {
+    padding-top: 200px;
+	}
 }
